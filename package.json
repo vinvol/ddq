@@ -2,9 +2,9 @@
     "name": "@vinvol/ddq",
     "version": "1.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "./bin/cli.js",
     "bin": {
-        "ddq": "./index.js"
+        "ddq": "./bin/.cli.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 0"
