@@ -6,12 +6,12 @@ const contrib = require("blessed-contrib");
 const request = require("request");
 const fs = require("fs");
 
-const { getStuff } = require("./lib/get-stuff");
-const { getCredentials } = require("./lib/get-credentials");
-const { getMetric } = require("./lib/get-metric");
-const { getAggregator } = require("./lib/get-aggregator");
-const { createInterface } = require("./lib/interface");
-const { colors } = require("./lib/colors");
+const { getStuff } = require("./../lib/get-stuff");
+const { getCredentials } = require("./../lib/get-credentials");
+const { getMetric } = require("./../lib/get-metric");
+const { getAggregator } = require("./../lib/get-aggregator");
+const { createInterface } = require("./../lib/interface");
+const { colors } = require("./../lib/colors");
 
 const from = 1553644800;
 const to = 1590191999;
