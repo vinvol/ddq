@@ -3,6 +3,7 @@
     "version": "1.0.3",
     "description": "",
     "main": "./bin/cli.js",
+	"repository": "git@github.com:vinvol/ddq.git",
     "bin": {
         "ddq": "./bin/cli.js"
     },
